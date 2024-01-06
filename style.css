@@ -51,3 +51,33 @@
   font-size: 1rem;
 }
 
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  width: 600px;
+  border-radius: 4px;
+}
+
+.select {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border: none;
+  height: 38px;
+  
+}
+
+.search {
+  height: 38px;
+}
+
+.search-icon {
+  text-align: center;
+  height: 38px;
+}
+
