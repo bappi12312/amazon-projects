@@ -20,7 +20,7 @@
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -62,8 +62,8 @@
 }
 
 .select {
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
   background-color: #f3f3f3;
   width: 50px;
   text-align: center;
@@ -84,8 +84,8 @@
   text-align: center;
   height: 38px;
   border: none;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,6 +120,35 @@ span {
   height: 50px ;
   width: 80px;
 
+}
+
+.container {
+  background-color: #5e6969;
+  display: flex;
+  column-gap: 20px;
+  height: 40px;
+  width: 100%;
+
+}
+
+.nav2 {
+  display: flex;
+  width: 58;
+  height: 39;
+  column-gap: 8px;
+  align-items: center;
+
+}
+.nav2 a {
+  text-decoration: none;
+  color: #0f1111;
+}
+
+.maximum {
+  display: flex;
+  flex: 1;
+  column-gap: 30px;
+  align-items: center;
 }
 
 
