@@ -1,12 +1,13 @@
 /* shared styles */
 
-*{
+* {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   border: border-box;
   cursor: pointer;
 
 }
+
 body {
   background-color: #00718821;
 }
@@ -74,8 +75,8 @@ body {
   text-align: center;
   border: none;
   height: 38px;
- 
-  
+
+
 }
 
 .search {
@@ -95,7 +96,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: orange;
-  width: 45px ;
+  width: 45px;
   margin-left: -2px;
 }
 
@@ -118,11 +119,12 @@ span {
   font-size: 1.6rem;
   margin-right: 2px;
 }
+
 .nav-cart {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px ;
+  height: 50px;
   width: 80px;
 
 }
@@ -145,6 +147,7 @@ span {
   padding-left: 20px;
 
 }
+
 .nav2 a {
   text-decoration: none;
   color: #0f1111;
@@ -159,10 +162,10 @@ span {
 
 /* background section */
 
-.hero-section{
+.hero-section {
   background-image: url('hero_image.jpg');
   background-size: cover;
-  height:300px ;
+  height: 300px;
   width: 100%;
   margin: 0 auto;
 
@@ -170,7 +173,7 @@ span {
 
 .hero-message {
   display: flex;
-  
+
   color: black;
   height: 40px;
   align-items: center;
@@ -198,7 +201,7 @@ span {
   display: flex;
   flex-direction: column;
   row-gap: 4px;
- 
+
 
 }
 
@@ -208,16 +211,16 @@ span {
   margin-top: 30px;
   flex-wrap: wrap;
   row-gap: 30px;
-  
+
 }
 
 .box-img {
-  height:270px;
+  height: 270px;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 10px;
   margin-bottom: 8px;
-  
+
 }
 
 .shop-section .img {
@@ -244,7 +247,7 @@ span {
 .footer {
   height: 500px;
   width: 100%;
-  background-color: #00718857 ;
+  background-color: #00718857;
   display: flex;
   justify-content: center;
   border-bottom: 2px solid rgba(168, 161, 161, 0.363);
@@ -260,11 +263,11 @@ span {
 
 .footer .header {
   display: flex;
- align-items: center;
- column-gap: 60px;
+  align-items: center;
+  column-gap: 60px;
 }
 
-hr { 
+hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -275,8 +278,8 @@ hr {
 
 .nav-footer {
   height: 70px;
-  background-color: #00718857 ;
-  margin:0;
+  background-color: #00718857;
+  margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
@@ -295,6 +298,3 @@ hr {
   align-items: center;
   gap: 15px;
 }
-
-
-
